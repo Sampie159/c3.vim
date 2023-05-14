@@ -3,7 +3,7 @@ Syntax highlighting for C3's programming language
 Derived from [Tetralux/odin.vim](https://github.com/Tetralux/odin.vim).
 
 ### What it looks like. 
-<!-- [Screenshot](odin.vimpng)-->
+![Screenshot](c3-preview.png)
 
 ## Installation
 
