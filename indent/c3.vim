@@ -7,13 +7,13 @@ setlocal nosmartindent
 setlocal nolisp
 setlocal autoindent
 
-setlocal indentexpr=GetOdinIndent(v:lnum)
+setlocal indentexpr=GetC3Indent(v:lnum)
 
-if exists("*GetOdinIndent")
+if exists("*GetC3Indent")
   finish
 endif
 
-function! GetOdinIndent(lnum)
+function! GetC3Indent(lnum)
   let prev = prevnonblank(a:lnum-1)
 
   if prev == 0

@@ -1,9 +1,9 @@
-# Odin.vim
-Syntax highlighting for [Ginger Bill's](https://www.youtube.com/user/GingerGames) programming language, Odin.
-Derived from [jansedivy's jai.vim](https://github.com/jansedivy/jai.vim).
+# C3.vim
+Syntax highlighting for C3's programming language
+Derived from [Tetralux/odin.vim](https://github.com/Tetralux/odin.vim).
 
-### What it looks like. (In cmd.exe, anyway.)
-![Screenshot](odin.vim.png)
+### What it looks like. 
+<!-- [Screenshot](odin.vimpng)-->
 
 ## Installation
 
