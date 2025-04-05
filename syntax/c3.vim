@@ -2,6 +2,7 @@ if exists("b:current_syntax")
   finish
 endif
 
+syntax keyword c3Alias alias
 syntax keyword c3Asm asm
 syntax keyword c3Assert assert
 syntax keyword c3Attribute attribute
@@ -86,6 +87,7 @@ syntax match c3CommentNote "@\<\w\+\>" contained display
 syntax region c3LineComment start=/\/\// end=/$/  contains=c3CommentNote, c3Todo, c3Note, c3XXX, c3FixMe, c3NoCheckin, c3Hack
 syntax region c3BlockComment start=/\v\/\*/ end=/\v\*\// contains=c3BlockComment, c3CommentNote, c3Todo, c3Note, c3XXX, c3FixMe, c3NoCheckin, c3Hack
 
+highlight link c3Alias Keyword
 highlight link c3Asm Keyword
 highlight link c3Assert Keyword
 highlight link c3Attribute Keyword
