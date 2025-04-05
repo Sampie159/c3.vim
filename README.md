@@ -14,8 +14,6 @@ Some missing stuff:
 - C3 has two ranges, the inclusive a..b and the start-length: a:b. This latter - doesn't seem supported.
 - Optional types are the regular type names suffixed with !, e.g. int!
 - There is normal C ternary, i.e. a ? b : c but also the binary a ?: b and a ?? - b (the last one is same as Odin's or_else)
-- Floats also accept hex notation, e.g. 0x34p-12
-- Numerical suffixes are: u ul l and i<bitsize> u<bitsize>
 
 Compile time keywords seem to be missing:
     $alignof, $assert, $case, $checks, $default, $defined, $echo, $else, $endfor, $endforeach, $endif, $endswitch, $error, $eval, $evaltype, $extnameof, $for, $foreach, $if, $include, $nameof, $sizeof, $stringify, $switch, $typeof, $typefrom, $qnameof, $vacount, $vaconst, $vatype, $vaarg, $varef, $vaexpr, $vasplat
