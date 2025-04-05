@@ -71,8 +71,9 @@ syntax match c3TernaryQMark "?" display
 syntax match c3DeclAssign "=" display
 
 syntax match c3Integer "\-\?\<\d\+\>" display
-syntax match c3Float "\-\?\<[0-9][0-9_]*\%(\.[0-9][0-9_]*\)\%([eE][+-]\=[0-9_]\+\)\=" display
-syntax match c3Hex "\<0[xX][0-9A-Fa-f]\+\>" display
+" syntax match c3HexFloat /\v-?\<0[xX][0-9A-Fa-f]+(\.[0-9A-Fa-f]+)?([pP][+-]?[0-9A-Fa-f]+)?/ display contains=c3Hex
+syntax match c3Float "\-\?\<[0-9][0-9_]*\%(\.[0-9][0-9_]*\)\%([eE][+-]\=[0-9_]\+\)\=" display 
+syntax match c3Hex "\<0[xX][0-9A-Fa-f]\+\%(\.[0-9A-Fa-f]\+\)\?\%([pP][+-]\?[0-9A-Fa-f]\+\)\?\>" display
 syntax match c3Oct "\<0[oO][0-7]\+\>" display
 syntax match c3Bin "\<0[bB][01]\+\>" display
 
